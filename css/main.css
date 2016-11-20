@@ -50,6 +50,8 @@ h4 {
 	margin-bottom: 0;
 	//min-height: 100px;
 	position: relative;
+	background-color: unset;
+	border: none;
 }
 
 #topnav .navbar-inner {
