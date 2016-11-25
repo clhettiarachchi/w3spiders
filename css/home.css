@@ -1,0 +1,134 @@
+.visible {
+  opacity: 1;
+}
+
+.hide {
+  opacity: 0;
+}
+
+/* Carousel Design */
+#sliderwrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#slider .carousel-inner {
+    max-height: 600px;
+    overflow: hidden;
+}
+
+#slider .carousel-inner img {
+    filter: brightness(0.6);
+}
+
+#slider .carousel-control {
+    top: 50%;
+    bottom: unset;
+}
+
+#slider .carousel-indicators li {
+    border-radius: 0;
+}
+
+#slider .carousel-control.right, #slider .carousel-control.left {
+    background: none;
+}
+
+#slider .carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: -50px;
+}
+
+#slider .carousel-inner .carousel-caption > h2 {
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+#slider .carousel-inner .carousel-caption > p {
+    font-size: 1.4em;
+    text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+}
+
+/* Intro area */
+#intro {
+  font-size: 1.2em;
+  padding-left: 0;
+}
+
+#intro .col-sm-6.text {
+  position: relative;
+}
+
+@media only screen and (min-width : 768px) {
+  #intro article.intro-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+#intro article.intro-text  p {
+  font-weight: 400;
+}
+
+#intro article.intro-text h3 {
+
+}
+
+#intro #whyus {
+  margin-top: 25px;
+}
+
+#intro #whyus .item {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#intro #whyus .item .bgwrapper {
+  background: none;
+  color: #2f2f2f;
+}
+
+#intro #whyus .item img {
+  padding-top: 20px;
+}
+
+#intro #whyus .item h4 {
+  color: #666;
+}
+
+#intro #whyus .item h4 i {
+  margin-right: 10px;
+}
+
+#intro #whyus .item h4, #intro #whyus .item p {
+  padding: 20px;
+  font-weight: bold;
+}
+
+#intro #whyus .item p {
+  margin-top: -20px;
+  font-weight: 400;
+}
+/* End Intro */
+
+/*Service Section */
+.services.container-fluid {
+  padding: 20px 10px;
+  padding-bottom: 0px;
+  font-size: 1em;
+  background-color: #000;
+  color: #fff;
+}
+.services.container-fluid .service-item.thumbnail {
+  border: none;
+  background-color: unset;
+}
+
+.services.container-fluid .service-item {
+  padding: 20px 10px 20px 10px;
+  position: relative;
+}
+
+/*End Service Section */

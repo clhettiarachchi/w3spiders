@@ -1,0 +1,28 @@
+#aboutintro {
+    padding: 20px;
+    font-weight: 400;
+    color: #fff;
+    background: url('../images/bgcontent.jpg') center center;
+}
+
+#aboutintro .wrap-inner {
+    background-color: rgba(0,0,0,0.5);
+}
+
+#aboutintro h2 {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+#aboutcontent p {
+    line-height: 1.6em;
+    font-weight: 300;
+}
+
+#team {
+    margin-top: 40px;
+}
+
+#team h4 {
+    margin-bottom: 20px;
+}

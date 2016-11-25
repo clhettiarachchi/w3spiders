@@ -5,36 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>W3Spiders</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.min.css">
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
 </head>
 <body>
 <!-- Start top navigation -->
-<div class="container-fluid">
-	<nav id="topnav" class="navbar navbar-default">
-		<div class="container-fluid navbar-inner">
-			<div class="row is-table-row">
-				<div id="logo" class="col-sm-3">
-					<img src="images/logo.png"/>
-				</div>
-				<div class="col-sm-9">
-					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Packages</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#" class="fa fa-facebook" aria-hidden="true"></a></li>
-						<li><a href="#" class="fa fa-google-plus" aria-hidden="true"></a></li>
-					</ul>
-				</div>
+<nav id="topnav" class="navbar navbar-default container-fluid">
+	<div class="container navbar-inner">
+		<div class="row">
+			<div id="logo" class="col-sm-3">
+				<img src="images/logo.png" alt="Logo">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+      			</button>
+			</div>
+			<div class="col-sm-7" id="navbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="packages.html">Packages</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="#" class="fa fa-facebook" aria-hidden="true"></a></li>
+					<li><a href="#" class="fa fa-google-plus" aria-hidden="true"></a></li>
+				</ul>
+			</div>
+			<div class="col-sm-2 contact details">
+				<p><i class="fa fa-phone" aria-hidden="true"></i>&nbsp(+94) 71-243-0203 <br />
+				<i class="fa fa-envelope-o" aria-hidden="true"></i>&nbspw3spider@gmail.com</p>
 			</div>
 		</div>
-	</nav>
-</div>
+	</div>
+</nav>
 <!-- End top navigation -->
 
 <!-- Start Carousel -->
@@ -57,7 +66,7 @@
 			    <h2>We enhance your business</h2>
 				<p>With the use of latest technologies, we make your works and your client’s works easier. We use latest technologies to continue your projects further. And create the success you need in your business life.</p>
 			  </div>
-			  
+
 			</div>
 			<div class="item">
 			  <img src="images/slide1.jpg" alt="...">
@@ -101,68 +110,51 @@
 	</div>
 </div><!-- End Carousel -->
 
-<section class="container-fluid" id="intro">
+<section class="container-fluid services">
 	<div class="container">
-		<div class="row is-table-row">
-			<div class="col-sm-6">
-				<figure class="img intro">
-					<img class="img-responsive" src="images/storefront.jpg" alt="Storefront">
-				</figure>
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="thumbnail service-item">
+					<i class="fa fa-desktop fa-2x" aria-hidden="true"></i>
+					<div class="text">
+						<h4>Custom Web Design</h4>
+						<p>
+							We are creating professional websites with a standard quality which will be unique only for you. Your business industry will be able to have a success with custom design concepts that contain more extra features in the leading business field.
+						</p>
+					</div>
+				</div>
 			</div>
-			<div class="col-sm-6 text" data-aos="fade-up">
-				<article class="intro-text">
-					<h3>We are..</h3>
-					<p>Among the Sri Lankan web designing companies, we are “W3 Spiders” a trending web designing company which leads in a successful path in the business field. We provide high quality designs, well scheduled solutions for the middle range projects with a medium budget.
-					Our company leads with a well experienced team of talented and qualified web designers, web developers and content writers. Always our team steps up with the latest designs and technologies to provide a better service for the clients.
-					</p>
-				</article>
-			</div>
-		</div>
+			<div class="col-sm-3">
+				<div class="thumbnail service-item">
+					<div class="text">
+						<i class="imghold fa fa-wordpress fa-2x" aria-hidden="true" href="#"></i>
+						<h4>Wordpress Development</h4>
 
-		<div id="whyus">
-			<div class="is-table-row row">
-				<div class="col-sm-4 item">
-					<div class="bgwrapper light-green">
-						<img src="images/package.png" />
-						<h4>Persuasive, Aggressive Packages</h4>
-						<p>Packages with competitive rates and accessible benefits show the persuasiveness in our packages which takes a significant place. With responsible and guaranteed value for each package is the foreshadowing of the overall trust that will be built up within the people. The packages with a higher quality, hassle free and the relevant projects will offer you an ability to save your time. </p>
-					</div>
-				</div>
-				<div class="col-sm-4 item">
-					<div class="bgwrapper light-blue">
-						<img src="images/latest.png" />
-						<h4>Step along with the latest technologies</h4>
-						<p>Adapting to the new world with latest software, design trends and tools make our service more prominent for the people. The use of latest versions of languages is another importance in our service. But with the development of the technology, we have decided to respect the traditional standard and take hand with new technology. </p>
-					</div>
-				</div>
-				<div class="col-sm-4 item">
-					<div class="bgwrapper dark-grey">
-						<img src="images/perfect.png" />
-						<h4>Standard design with a perfect coding</h4>
-						<p>Being the younger generation and the followers of a good leadership, always we try for new things. We do web designing for our satisfaction about ourselves with no consideration of money, time and effort. </p>
+						<p>
+							In our service you will be allow to manage your own websites themselves. The best CMS (Content Management System) will be a platform for it. And it will lead you to your path in your own business.
+						</p>
 					</div>
 				</div>
 			</div>
-			<div class="is-table-row row">
-				<div class="col-sm-4 item">
-					<div class="bgwrapper dark-grey">
-						<img src="images/love.png" />
-						<h4>Web designing...It’s our passion</h4>
-						<p>Being the younger generation and the followers of a good leadership, always we try for new things. We do web designing for our satisfaction about ourselves with no consideration of money, time and effort. </p>
+			<div class="col-sm-3">
+				<div class="thumbnail service-item">
+					<div class="text">
+						<i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+						<h4>Ecommerce Development</h4>
+						<p>
+							When you are keeping in touch with the modern technology, mostly with E commerce, the online shopping carts, online checkouts and other facilities creates an online store for you to sell your own products or offer your services with an increment in your sale.
+						</p>
 					</div>
 				</div>
-				<div class="col-sm-4 item">
-					<div class="bgwrapper light-green">
-						<img src="images/extra.png" />
-						<h4>Lead an extra mile for our clients</h4>
-						<p>Actually with the service we offer, we hope 100% satisfaction of the client. We offer extra beyond the concept for the appropriate service for the client because your project results our portfolio. We offer our services responsibly as it’s our reputation. </p>
-					</div>
-				</div>
-				<div class="col-sm-4 item">
-					<div class="bgwrapper light-blue">
-					<img src="images/like.png" />
-						<h4>Regular customer service</h4>
-						<p>Our priority is our consumers who handle overall connection with us. Therefore we provide our continuous service after launching your projects. Absolutely the consumers who facilitate us to achieve our goals are our wealth. </p>
+			</div>
+			<div class="col-sm-3">
+				<div class="thumbnail service-item">
+					<i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i>
+					<div class="text">
+						<h4>Content Consulting</h4>
+						<p>
+							We create content for your website in a modern way to the seekers of your service. Considerably with the improved seo ranking and attentive language your clients will be attracted to your service.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -170,53 +162,67 @@
 	</div>
 </section>
 
-<section class="container-fluid services">
-	<div class="container">
-		<h3> Our Services </h3>
-		<div class="row" data-aos="slide-up">
-			<div class="col-sm-3">
-				<div class="thumbnail service-item">
-					<i class="fa fa-desktop fa-3x" aria-hidden="true"></i>
-					<div class="text">
-						<h4>Custom Web Design</h4>
-						<p>
-							Web design Sri Lanka a Sri Lankan web design and developing company. Our services are web design related services. we have our own way to design and develop your web site
-						</p>
-					</div>
+<section class="container-fluid" id="intro">
+	<div class="row is-table-row">
+		<div class="col-sm-6">
+			<figure class="img intro">
+				<img class="img-responsive" src="images/storefront.jpg" alt="Storefront">
+			</figure>
+		</div>
+		<div class="col-sm-6 text">
+			<article class="intro-text">
+				<h3>W3Spiders Web Design Sri Lanka</h3>
+				<p>Among the Sri Lankan web designing companies, we are “W3 Spiders” a trending web designing company which leads in a successful path in the business field. We provide high quality designs, well scheduled solutions for the middle range projects with a medium budget.
+				Our company leads with a well experienced team of talented and qualified web designers, web developers and content writers. Always our team steps up with the latest designs and technologies to provide a better service for the clients.
+				</p>
+			</article>
+		</div>
+	</div>
+
+	<div id="whyus" class="text-center">
+		<div class="is-table-row row">
+			<div class="col-sm-4 item">
+				<div class="bgwrapper light-green">
+					<img src="images/package.png" />
+					<h4>Persuasive, Aggressive Packages</h4>
+					<p>Packages with competitive rates and accessible benefits show the persuasiveness in our packages which takes a significant place. With responsible and guaranteed value for each package is the foreshadowing of the overall trust that will be built up within the people. The packages with a higher quality, hassle free and the relevant projects will offer you an ability to save your time. </p>
 				</div>
 			</div>
-			<div class="col-sm-3">
-				<div class="thumbnail service-item">
-					<i class="imghold fa fa-wordpress fa-3x" aria-hidden="true" href="#">
-					</i>
-					<div class="text">
-						<h4>Wordpress Development</h4>
-						<p>
-							Web design Sri Lanka a Sri Lankan web design and developing company. Our services are web design related services. we have our own way to design and develop your web site
-						</p>
-					</div>
+			<div class="col-sm-4 item">
+				<div class="bgwrapper light-blue">
+					<img src="images/latest.png" />
+					<h4>Step along with the latest technologies</h4>
+					<p>Adapting to the new world with latest software, design trends and tools make our service more prominent for the people. The use of latest versions of languages is another importance in our service. But with the development of the technology, we have decided to respect the traditional standard and take hand with new technology. </p>
 				</div>
 			</div>
-			<div class="col-sm-3">
-				<div class="thumbnail service-item">
-					<i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i>
-					<div class="text">
-						<h4>Ecommerce Development</h4>
-						<p>
-							Web design Sri Lanka a Sri Lankan web design and developing company. Our services are web design related services. we have our own way to design and develop your web site
-						</p>
-					</div>
+			<div class="col-sm-4 item">
+				<div class="bgwrapper dark-grey">
+					<img src="images/perfect.png" />
+					<h4>Standard design with a perfect coding</h4>
+					<p>Being the younger generation and the followers of a good leadership, always we try for new things. We do web designing for our satisfaction about ourselves with no consideration of money, time and effort. </p>
 				</div>
 			</div>
-			<div class="col-sm-3">
-				<div class="thumbnail service-item">
-					<i class="fa fa-file-text-o fa-3x" aria-hidden="true"></i>
-					<div class="text">
-						<h4>Content Consulting</h4>
-						<p>
-							Web design Sri Lanka a Sri Lankan web design and developing company. Our services are web design related services. we have our own way to design and develop your web site
-						</p>
-					</div>
+		</div>
+		<div class="is-table-row row">
+			<div class="col-sm-4 item">
+				<div class="bgwrapper dark-grey">
+					<img src="images/love.png" />
+					<h4>Web designing...It’s our passion</h4>
+					<p>Being the younger generation and the followers of a good leadership, always we try for new things. We do web designing for our satisfaction about ourselves with no consideration of money, time and effort. </p>
+				</div>
+			</div>
+			<div class="col-sm-4 item">
+				<div class="bgwrapper light-green">
+					<img src="images/extra.png" />
+					<h4>Lead an extra mile for our clients</h4>
+					<p>Actually with the service we offer, we hope 100% satisfaction of the client. We offer extra beyond the concept for the appropriate service for the client because your project results our portfolio. We offer our services responsibly as it’s our reputation. </p>
+				</div>
+			</div>
+			<div class="col-sm-4 item">
+				<div class="bgwrapper light-blue">
+				<img src="images/like.png" />
+					<h4>Regular customer service</h4>
+					<p>Our priority is our consumers who handle overall connection with us. Therefore we provide our continuous service after launching your projects. Absolutely the consumers who facilitate us to achieve our goals are our wealth. </p>
 				</div>
 			</div>
 		</div>
@@ -268,7 +274,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid bottomrow">
+	<div class="container-fluid bottomrow text-center">
 		<p>Copyright © 2015 - 2016. All Rights Reserved | W3SPIDERS</p>
 	</div>
 </footer>
@@ -277,7 +283,6 @@
     <script src="js/fontawesome.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/aos.js"></script>
-    <script src="js/jquery.matchHeight-min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
