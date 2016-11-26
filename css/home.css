@@ -43,41 +43,36 @@
 
 #slider .carousel-inner .carousel-caption > h2 {
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    font-weight: 400;
 }
 
 #slider .carousel-inner .carousel-caption > p {
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
 }
 
 /* Intro area */
 #intro {
   font-size: 1.2em;
-  padding-left: 0;
 }
 
 #intro .col-sm-6.text {
-  position: relative;
-}
-
-@media only screen and (min-width : 768px) {
-  #intro article.intro-text {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  }
 }
 
 #intro article.intro-text  p {
   font-weight: 400;
+  text-align: left;
+  margin: auto;
 }
 
-#intro article.intro-text h3 {
-
+#intro article.intro-text img {
+	max-width: 200px;
+	float: right;
 }
 
 #intro #whyus {
   margin-top: 25px;
+  color: #666;
 }
 
 #intro #whyus .item {
